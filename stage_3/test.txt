@@ -1,0 +1,11 @@
+begin
+a=2;
+while(a<5)do
+a=a+1;
+write(a);
+if(a==4) then
+write(100);
+endif;
+continue;
+endwhile;
+end
