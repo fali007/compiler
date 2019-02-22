@@ -1,0 +1,14 @@
+0
+2056
+0
+0
+0
+0
+0
+0
+MOV R0, 2
+MOV R1, 3
+MUL R0, R1
+MOV R1, 4
+ADD R0, R1
+INT 10

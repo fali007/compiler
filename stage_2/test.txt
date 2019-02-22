@@ -1,0 +1,8 @@
+begin
+read (a);
+read (b);
+d = a + 2 * b;
+read (c);
+d=d/c;
+write (a+d);
+end;
