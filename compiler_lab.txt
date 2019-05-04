@@ -1,0 +1,12 @@
+compiler lab
+
+lex fun.l
+yacc -d fun.y
+gcc lex.yy.c y.tab.c -w
+./a.out fact.xpl out.xsm
+
+./xsm -l library.lib -e a.xsm --debug
+
+lex link.l
+gcc lex.yy.c link.c
+./a.out out.xsm asd.xsm
